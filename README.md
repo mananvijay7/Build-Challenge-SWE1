@@ -147,7 +147,7 @@ The small queue capacity (3 items) is **intentionally chosen** to:
 - **Thread-Safe Collections**: Used `Collections.synchronizedList()` for destination container
 - **Comprehensive Testing**: 19+ test cases covering edge cases and race conditions
 
-### 📊 Sample Output
+### Assignment 1 Output:
 
 ```
 === PRODUCER-CONSUMER DEMONSTRATION ===
