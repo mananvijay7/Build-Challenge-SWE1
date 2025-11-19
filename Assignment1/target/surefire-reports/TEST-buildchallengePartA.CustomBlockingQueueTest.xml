@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="buildchallengePartA.CustomBlockingQueueTest" time="5.368" tests="7" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/mananvijayvargiya/eclipse/buildchallenge/Build-Challenge-SWE1/Assignment1/target/test-classes:/Users/mananvijayvargiya/eclipse/buildchallenge/Build-Challenge-SWE1/Assignment1/target/classes:/Users/mananvijayvargiya/.m2/repository/org/junit/jupiter/junit-jupiter/6.1.0-M1/junit-jupiter-6.1.0-M1.jar:/Users/mananvijayvargiya/.m2/repository/org/junit/jupiter/junit-jupiter-api/6.1.0-M1/junit-jupiter-api-6.1.0-M1.jar:/Users/mananvijayvargiya/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/mananvijayvargiya/.m2/repository/org/junit/platform/junit-platform-commons/6.1.0-M1/junit-platform-commons-6.1.0-M1.jar:/Users/mananvijayvargiya/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/mananvijayvargiya/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/mananvijayvargiya/.m2/repository/org/junit/jupiter/junit-jupiter-params/6.1.0-M1/junit-jupiter-params-6.1.0-M1.jar:/Users/mananvijayvargiya/.m2/repository/org/junit/jupiter/junit-jupiter-engine/6.1.0-M1/junit-jupiter-engine-6.1.0-M1.jar:/Users/mananvijayvargiya/.m2/repository/org/junit/platform/junit-platform-engine/6.1.0-M1/junit-platform-engine-6.1.0-M1.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/25.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/mananvijayvargiya/eclipse/buildchallenge/Build-Challenge-SWE1/Assignment1/target/surefire/surefirebooter-20251119170758742_3.jar /Users/mananvijayvargiya/eclipse/buildchallenge/Build-Challenge-SWE1/Assignment1/target/surefire 2025-11-19T17-07-58_675-jvmRun1 surefire-20251119170758742_1tmp surefire_0-20251119170758742_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/mananvijayvargiya/eclipse/buildchallenge/Build-Challenge-SWE1/Assignment1/target/test-classes:/Users/mananvijayvargiya/eclipse/buildchallenge/Build-Challenge-SWE1/Assignment1/target/classes:/Users/mananvijayvargiya/.m2/repository/org/junit/jupiter/junit-jupiter/6.1.0-M1/junit-jupiter-6.1.0-M1.jar:/Users/mananvijayvargiya/.m2/repository/org/junit/jupiter/junit-jupiter-api/6.1.0-M1/junit-jupiter-api-6.1.0-M1.jar:/Users/mananvijayvargiya/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/mananvijayvargiya/.m2/repository/org/junit/platform/junit-platform-commons/6.1.0-M1/junit-platform-commons-6.1.0-M1.jar:/Users/mananvijayvargiya/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/mananvijayvargiya/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/mananvijayvargiya/.m2/repository/org/junit/jupiter/junit-jupiter-params/6.1.0-M1/junit-jupiter-params-6.1.0-M1.jar:/Users/mananvijayvargiya/.m2/repository/org/junit/jupiter/junit-jupiter-engine/6.1.0-M1/junit-jupiter-engine-6.1.0-M1.jar:/Users/mananvijayvargiya/.m2/repository/org/junit/platform/junit-platform-engine/6.1.0-M1/junit-platform-engine-6.1.0-M1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/mananvijayvargiya"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-10-21"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/25.0.1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/mananvijayvargiya/eclipse/buildchallenge/Build-Challenge-SWE1/Assignment1"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/mananvijayvargiya/eclipse/buildchallenge/Build-Challenge-SWE1/Assignment1/target/surefire/surefirebooter-20251119170758742_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="25.0.1"/>
+    <property name="user.name" value="mananvijayvargiya"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="26.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/mananvijayvargiya/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/dq/0c_ws8755hq31bfy8sj398hr0000gn/T/"/>
+    <property name="java.version" value="25.0.1"/>
+    <property name="user.dir" value="/Users/mananvijayvargiya/eclipse/buildchallenge/Build-Challenge-SWE1/Assignment1"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/mananvijayvargiya/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="25.0.1"/>
+    <property name="stdin.encoding" value="UTF-8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="testFIFOOrdering" classname="buildchallengePartA.CustomBlockingQueueTest" time="0.019">
+    <system-out><![CDATA[main - Added: First | Queue size: 1
+main - Added: Second | Queue size: 2
+main - Added: Third | Queue size: 3
+main - Removed: First | Queue size: 2
+main - Removed: Second | Queue size: 1
+main - Removed: Third | Queue size: 0
+]]></system-out>
+  </testcase>
+  <testcase name="testConcurrentPuts" classname="buildchallengePartA.CustomBlockingQueueTest" time="5.014">
+    <system-out><![CDATA[Thread-1 - Added: 0 | Queue size: 1
+Thread-1 - Added: 1 | Queue size: 2
+Thread-1 - Added: 2 | Queue size: 3
+Thread-1 - Added: 3 | Queue size: 4
+Thread-1 - Added: 4 | Queue size: 5
+Thread-1 - Added: 5 | Queue size: 6
+Thread-1 - Added: 6 | Queue size: 7
+Thread-1 - Added: 7 | Queue size: 8
+Thread-1 - Added: 8 | Queue size: 9
+Thread-1 - Added: 9 | Queue size: 10
+Thread-2 - Queue FULL, waiting...
+Thread-3 - Queue FULL, waiting...
+Thread-4 - Queue FULL, waiting...
+Thread-5 - Queue FULL, waiting...
+main - Removed: 0 | Queue size: 9
+Thread-2 - Added: 100 | Queue size: 10
+Thread-2 - Queue FULL, waiting...
+main - Removed: 1 | Queue size: 9
+main - Removed: 2 | Queue size: 8
+main - Removed: 3 | Queue size: 7
+main - Removed: 4 | Queue size: 6
+main - Removed: 5 | Queue size: 5
+main - Removed: 6 | Queue size: 4
+main - Removed: 7 | Queue size: 3
+main - Removed: 8 | Queue size: 2
+main - Removed: 9 | Queue size: 1
+main - Removed: 100 | Queue size: 0
+main - Queue EMPTY, waiting...
+Thread-3 - Added: 200 | Queue size: 1
+Thread-3 - Added: 201 | Queue size: 2
+Thread-3 - Added: 202 | Queue size: 3
+Thread-3 - Added: 203 | Queue size: 4
+Thread-3 - Added: 204 | Queue size: 5
+Thread-3 - Added: 205 | Queue size: 6
+Thread-3 - Added: 206 | Queue size: 7
+Thread-3 - Added: 207 | Queue size: 8
+Thread-3 - Added: 208 | Queue size: 9
+Thread-3 - Added: 209 | Queue size: 10
+Thread-4 - Queue FULL, waiting...
+Thread-5 - Queue FULL, waiting...
+Thread-2 - Queue FULL, waiting...
+main - Removed: 200 | Queue size: 9
+main - Removed: 201 | Queue size: 8
+main - Removed: 202 | Queue size: 7
+main - Removed: 203 | Queue size: 6
+main - Removed: 204 | Queue size: 5
+main - Removed: 205 | Queue size: 4
+main - Removed: 206 | Queue size: 3
+main - Removed: 207 | Queue size: 2
+main - Removed: 208 | Queue size: 1
+main - Removed: 209 | Queue size: 0
+main - Queue EMPTY, waiting...
+Thread-4 - Added: 300 | Queue size: 1
+Thread-4 - Added: 301 | Queue size: 2
+Thread-4 - Added: 302 | Queue size: 3
+Thread-4 - Added: 303 | Queue size: 4
+Thread-4 - Added: 304 | Queue size: 5
+Thread-4 - Added: 305 | Queue size: 6
+Thread-4 - Added: 306 | Queue size: 7
+Thread-4 - Added: 307 | Queue size: 8
+Thread-4 - Added: 308 | Queue size: 9
+Thread-4 - Added: 309 | Queue size: 10
+Thread-5 - Queue FULL, waiting...
+Thread-2 - Queue FULL, waiting...
+main - Removed: 300 | Queue size: 9
+main - Removed: 301 | Queue size: 8
+main - Removed: 302 | Queue size: 7
+main - Removed: 303 | Queue size: 6
+main - Removed: 304 | Queue size: 5
+main - Removed: 305 | Queue size: 4
+main - Removed: 306 | Queue size: 3
+main - Removed: 307 | Queue size: 2
+main - Removed: 308 | Queue size: 1
+main - Removed: 309 | Queue size: 0
+Thread-5 - Added: 400 | Queue size: 1
+Thread-5 - Added: 401 | Queue size: 2
+Thread-5 - Added: 402 | Queue size: 3
+Thread-5 - Added: 403 | Queue size: 4
+Thread-5 - Added: 404 | Queue size: 5
+Thread-5 - Added: 405 | Queue size: 6
+Thread-5 - Added: 406 | Queue size: 7
+Thread-5 - Added: 407 | Queue size: 8
+Thread-5 - Added: 408 | Queue size: 9
+Thread-5 - Added: 409 | Queue size: 10
+Thread-2 - Queue FULL, waiting...
+main - Removed: 400 | Queue size: 9
+main - Removed: 401 | Queue size: 8
+main - Removed: 402 | Queue size: 7
+main - Removed: 403 | Queue size: 6
+main - Removed: 404 | Queue size: 5
+main - Removed: 405 | Queue size: 4
+main - Removed: 406 | Queue size: 3
+main - Removed: 407 | Queue size: 2
+main - Removed: 408 | Queue size: 1
+main - Removed: 409 | Queue size: 0
+Thread-2 - Added: 101 | Queue size: 1
+Thread-2 - Added: 102 | Queue size: 2
+Thread-2 - Added: 103 | Queue size: 3
+Thread-2 - Added: 104 | Queue size: 4
+Thread-2 - Added: 105 | Queue size: 5
+Thread-2 - Added: 106 | Queue size: 6
+Thread-2 - Added: 107 | Queue size: 7
+Thread-2 - Added: 108 | Queue size: 8
+Thread-2 - Added: 109 | Queue size: 9
+main - Removed: 101 | Queue size: 8
+main - Removed: 102 | Queue size: 7
+main - Removed: 103 | Queue size: 6
+main - Removed: 104 | Queue size: 5
+main - Removed: 105 | Queue size: 4
+main - Removed: 106 | Queue size: 3
+main - Removed: 107 | Queue size: 2
+main - Removed: 108 | Queue size: 1
+main - Removed: 109 | Queue size: 0
+]]></system-out>
+  </testcase>
+  <testcase name="testQueueCapacity" classname="buildchallengePartA.CustomBlockingQueueTest" time="0.002">
+    <system-out><![CDATA[main - Added: Item1 | Queue size: 1
+main - Added: Item2 | Queue size: 2
+main - Added: Item3 | Queue size: 3
+]]></system-out>
+  </testcase>
+  <testcase name="testInterruptionHandling" classname="buildchallengePartA.CustomBlockingQueueTest" time="0.105">
+    <system-out><![CDATA[Thread-6 - Queue EMPTY, waiting...
+]]></system-out>
+    <system-err><![CDATA[Exception in thread "Thread-6" org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:158)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:139)
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:69)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:41)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:35)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:195)
+	at buildchallengePartA.CustomBlockingQueueTest.lambda$testInterruptionHandling$0(CustomBlockingQueueTest.java:171)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+]]></system-err>
+  </testcase>
+  <testcase name="testBasicPutAndTake" classname="buildchallengePartA.CustomBlockingQueueTest" time="0.001">
+    <system-out><![CDATA[main - Added: Item1 | Queue size: 1
+main - Added: Item2 | Queue size: 2
+main - Removed: Item1 | Queue size: 1
+main - Removed: Item2 | Queue size: 0
+]]></system-out>
+  </testcase>
+  <testcase name="testBlockingOnEmptyQueue" classname="buildchallengePartA.CustomBlockingQueueTest" time="0.107">
+    <system-out><![CDATA[Thread-7 - Queue EMPTY, waiting...
+main - Added: Item1 | Queue size: 1
+Thread-7 - Removed: Item1 | Queue size: 0
+]]></system-out>
+  </testcase>
+  <testcase name="testBlockingOnFullQueue" classname="buildchallengePartA.CustomBlockingQueueTest" time="0.104">
+    <system-out><![CDATA[main - Added: Item1 | Queue size: 1
+main - Added: Item2 | Queue size: 2
+main - Added: Item3 | Queue size: 3
+Thread-8 - Queue FULL, waiting...
+main - Removed: Item1 | Queue size: 2
+Thread-8 - Added: Item4 | Queue size: 3
+]]></system-out>
+  </testcase>
+</testsuite>
