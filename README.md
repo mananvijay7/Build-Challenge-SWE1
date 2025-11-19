@@ -4,18 +4,6 @@
 
 A robust implementation of the classic **Producer-Consumer pattern** demonstrating thread synchronization, concurrent programming, and inter-thread communication mechanisms in Java.
 
-### 📋 Table of Contents
-- [Overview](#overview)
-- [Core Concepts Demonstrated](#core-concepts-demonstrated)
-- [Architecture](#architecture)
-- [Prerequisites](#prerequisites)
-- [Project Setup](#project-setup)
-- [Running the Application](#running-the-application)
-- [Running Tests](#running-tests)
-- [Design Decisions](#design-decisions)
-- [Sample Output](#sample-output)
-- [Project Structure](#project-structure)
-
 ### 🎯 Overview
 
 This project implements a **thread-safe Producer-Consumer pattern** where:
