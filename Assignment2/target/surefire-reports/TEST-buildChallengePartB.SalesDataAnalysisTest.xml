@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="buildChallengePartB.SalesDataAnalysisTest" time="0.093" tests="25" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/mananvijayvargiya/eclipse/buildchallenge/Build-Challenge-SWE1/Assignment2/target/test-classes:/Users/mananvijayvargiya/eclipse/buildchallenge/Build-Challenge-SWE1/Assignment2/target/classes:/Users/mananvijayvargiya/.m2/repository/org/junit/jupiter/junit-jupiter-api/6.1.0-M1/junit-jupiter-api-6.1.0-M1.jar:/Users/mananvijayvargiya/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/mananvijayvargiya/.m2/repository/org/junit/platform/junit-platform-commons/6.1.0-M1/junit-platform-commons-6.1.0-M1.jar:/Users/mananvijayvargiya/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/mananvijayvargiya/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/25.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/mananvijayvargiya/eclipse/buildchallenge/Build-Challenge-SWE1/Assignment2/target/surefire/surefirebooter-20251119180357353_3.jar /Users/mananvijayvargiya/eclipse/buildchallenge/Build-Challenge-SWE1/Assignment2/target/surefire 2025-11-19T18-03-57_283-jvmRun1 surefire-20251119180357353_1tmp surefire_0-20251119180357353_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/mananvijayvargiya/eclipse/buildchallenge/Build-Challenge-SWE1/Assignment2/target/test-classes:/Users/mananvijayvargiya/eclipse/buildchallenge/Build-Challenge-SWE1/Assignment2/target/classes:/Users/mananvijayvargiya/.m2/repository/org/junit/jupiter/junit-jupiter-api/6.1.0-M1/junit-jupiter-api-6.1.0-M1.jar:/Users/mananvijayvargiya/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/mananvijayvargiya/.m2/repository/org/junit/platform/junit-platform-commons/6.1.0-M1/junit-platform-commons-6.1.0-M1.jar:/Users/mananvijayvargiya/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/mananvijayvargiya/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/mananvijayvargiya"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-10-21"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/25.0.1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/mananvijayvargiya/eclipse/buildchallenge/Build-Challenge-SWE1/Assignment2"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/mananvijayvargiya/eclipse/buildchallenge/Build-Challenge-SWE1/Assignment2/target/surefire/surefirebooter-20251119180357353_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="25.0.1"/>
+    <property name="user.name" value="mananvijayvargiya"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="26.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/mananvijayvargiya/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/dq/0c_ws8755hq31bfy8sj398hr0000gn/T/"/>
+    <property name="java.version" value="25.0.1"/>
+    <property name="user.dir" value="/Users/mananvijayvargiya/eclipse/buildchallenge/Build-Challenge-SWE1/Assignment2"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/mananvijayvargiya/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="25.0.1"/>
+    <property name="stdin.encoding" value="UTF-8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="testSalesRecordConstructor_ValidData" classname="buildChallengePartB.SalesDataAnalysisTest" time="0.022"/>
+  <testcase name="testSalesRecordProfitCalculation" classname="buildChallengePartB.SalesDataAnalysisTest" time="0.002"/>
+  <testcase name="testSalesRecordProfitMargin" classname="buildChallengePartB.SalesDataAnalysisTest" time="0.002"/>
+  <testcase name="testSalesRecordQuarter" classname="buildChallengePartB.SalesDataAnalysisTest" time="0.002"/>
+  <testcase name="testSalesRecordInvalidDate" classname="buildChallengePartB.SalesDataAnalysisTest" time="0.001"/>
+  <testcase name="testSalesRecordInvalidNumeric" classname="buildChallengePartB.SalesDataAnalysisTest" time="0.001"/>
+  <testcase name="testSalesStatsFormatting" classname="buildChallengePartB.SalesDataAnalysisTest" time="0.008"/>
+  <testcase name="testDataInjection" classname="buildChallengePartB.SalesDataAnalysisTest" time="0.001"/>
+  <testcase name="testAnalyzeSalesByRegion" classname="buildChallengePartB.SalesDataAnalysisTest" time="0.003"/>
+  <testcase name="testAnalyzeTopSalesReps" classname="buildChallengePartB.SalesDataAnalysisTest" time="0.002"/>
+  <testcase name="testAnalyzeCategoryPerformance" classname="buildChallengePartB.SalesDataAnalysisTest" time="0.002"/>
+  <testcase name="testAnalyzeMonthlyTrend" classname="buildChallengePartB.SalesDataAnalysisTest" time="0.002"/>
+  <testcase name="testAnalyzeCustomerTypes" classname="buildChallengePartB.SalesDataAnalysisTest" time="0.002"/>
+  <testcase name="testAnalyzeProfitableProducts" classname="buildChallengePartB.SalesDataAnalysisTest" time="0.001"/>
+  <testcase name="testAnalyzePaymentMethods" classname="buildChallengePartB.SalesDataAnalysisTest" time="0.003"/>
+  <testcase name="testAnalyzeQuarterlyPerformance" classname="buildChallengePartB.SalesDataAnalysisTest" time="0.002"/>
+  <testcase name="testAnalyzeSalesChannels" classname="buildChallengePartB.SalesDataAnalysisTest" time="0.001"/>
+  <testcase name="testAnalyzeHighValueTransactions" classname="buildChallengePartB.SalesDataAnalysisTest" time="0.002"/>
+  <testcase name="testAnalyzeDiscountImpact" classname="buildChallengePartB.SalesDataAnalysisTest" time="0.001"/>
+  <testcase name="testDisplaySummary" classname="buildChallengePartB.SalesDataAnalysisTest" time="0.001"/>
+  <testcase name="testEmptyDataset" classname="buildChallengePartB.SalesDataAnalysisTest" time="0.002">
+    <system-out><![CDATA[──────────────────────────────────────────────────────────────────────
+          OVERALL SUMMARY STATISTICS                        
+──────────────────────────────────────────────────────────────────────
+Sales:  Count: 0, Total: $0.00, Avg: $0.00, Min: $Infinity, Max: $-Infinity
+Profit: Count: 0, Total: $0.00, Avg: $0.00, Min: $Infinity, Max: $-Infinity
+Overall Profit Margin: NaN%
+
+=== ANALYSIS 1: SALES BY REGION ===
+
+=== ANALYSIS 2: TOP 5 SALES REPRESENTATIVES ===
+
+=== ANALYSIS 3: CATEGORY PERFORMANCE WITH STATISTICS ===
+
+=== ANALYSIS 4: MONTHLY SALES TREND ===
+
+=== ANALYSIS 5: CUSTOMER TYPE ANALYSIS ===
+
+=== ANALYSIS 6: TOP 5 MOST PROFITABLE PRODUCTS ===
+
+=== ANALYSIS 7: PAYMENT METHOD DISTRIBUTION ===
+
+=== ANALYSIS 8: QUARTERLY PERFORMANCE BY REGION ===
+
+=== ANALYSIS 9: SALES CHANNEL EFFECTIVENESS ===
+
+=== ANALYSIS 10: HIGH-VALUE TRANSACTIONS (>$9,000.00) ===
+Found 0 high-value transactions
+
+=== ANALYSIS 11: DISCOUNT IMPACT ANALYSIS ===
+
+]]></system-out>
+  </testcase>
+  <testcase name="testSingleRecordDataset" classname="buildChallengePartB.SalesDataAnalysisTest" time="0.004">
+    <system-out><![CDATA[──────────────────────────────────────────────────────────────────────
+          OVERALL SUMMARY STATISTICS                        
+──────────────────────────────────────────────────────────────────────
+Sales:  Count: 1, Total: $5000.00, Avg: $5000.00, Min: $5000.00, Max: $5000.00
+Profit: Count: 1, Total: $3000.00, Avg: $3000.00, Min: $3000.00, Max: $3000.00
+Overall Profit Margin: 60.00%
+
+=== ANALYSIS 1: SALES BY REGION ===
+North     : $    5,000.00
+
+=== ANALYSIS 2: TOP 5 SALES REPRESENTATIVES ===
+Alice     : $    5,000.00
+
+=== ANALYSIS 3: CATEGORY PERFORMANCE WITH STATISTICS ===
+Electronics : Count: 1, Total: $5000.00, Avg: $5000.00, Min: $5000.00, Max: $5000.00
+
+=== ANALYSIS 4: MONTHLY SALES TREND ===
+2023-01: $    5,000.00
+
+=== ANALYSIS 5: CUSTOMER TYPE ANALYSIS ===
+New       : Transactions=    1, Total=$    5,000.00, Avg Sale=$5,000.00, Avg Discount=10.0%
+
+=== ANALYSIS 6: TOP 5 MOST PROFITABLE PRODUCTS ===
+Product 1001: $  3,000.00 profit
+
+=== ANALYSIS 7: PAYMENT METHOD DISTRIBUTION ===
+Credit Card    :      1 transactions (100.0%)
+
+=== ANALYSIS 8: QUARTERLY PERFORMANCE BY REGION ===
+North:
+  Q1: $    5,000.00
+
+=== ANALYSIS 9: SALES CHANNEL EFFECTIVENESS ===
+Online    : Total=$    5,000.00, Avg Profit=$3,000.00
+
+=== ANALYSIS 10: HIGH-VALUE TRANSACTIONS (>$9,000.00) ===
+Found 0 high-value transactions
+
+=== ANALYSIS 11: DISCOUNT IMPACT ANALYSIS ===
+1-10%       : Count=    1, Avg Sales=$5,000.00, Avg Profit=$3,000.00, Margin=60.0%
+
+]]></system-out>
+  </testcase>
+  <testcase name="testRunAllAnalyses" classname="buildChallengePartB.SalesDataAnalysisTest" time="0.006">
+    <system-out><![CDATA[──────────────────────────────────────────────────────────────────────
+          OVERALL SUMMARY STATISTICS                        
+──────────────────────────────────────────────────────────────────────
+Sales:  Count: 10, Total: $60200.00, Avg: $6020.00, Min: $2500.00, Max: $10000.00
+Profit: Count: 10, Total: $30500.00, Avg: $3050.00, Min: $1500.00, Max: $5000.00
+Overall Profit Margin: 50.66%
+
+=== ANALYSIS 1: SALES BY REGION ===
+North     : $   18,500.00
+South     : $   15,500.00
+East      : $   13,500.00
+West      : $   12,700.00
+
+=== ANALYSIS 2: TOP 5 SALES REPRESENTATIVES ===
+Alice     : $   25,200.00
+Bob       : $   20,500.00
+Charlie   : $   14,500.00
+
+=== ANALYSIS 3: CATEGORY PERFORMANCE WITH STATISTICS ===
+Clothing    : Count: 2, Total: $8700.00, Avg: $4350.00, Min: $4200.00, Max: $4500.00
+Electronics : Count: 5, Total: $40000.00, Avg: $8000.00, Min: $5000.00, Max: $10000.00
+Furniture   : Count: 2, Total: $9000.00, Avg: $4500.00, Min: $3000.00, Max: $6000.00
+Food        : Count: 1, Total: $2500.00, Avg: $2500.00, Min: $2500.00, Max: $2500.00
+
+=== ANALYSIS 4: MONTHLY SALES TREND ===
+2023-01: $    8,000.00
+2023-02: $   11,700.00
+2023-03: $   11,500.00
+2023-04: $    6,000.00
+2023-05: $    8,500.00
+2023-06: $    4,500.00
+2023-07: $   10,000.00
+
+=== ANALYSIS 5: CUSTOMER TYPE ANALYSIS ===
+New       : Transactions=    5, Total=$   32,000.00, Avg Sale=$6,400.00, Avg Discount=9.0%
+Returning : Transactions=    5, Total=$   28,200.00, Avg Sale=$5,640.00, Avg Discount=9.0%
+
+=== ANALYSIS 6: TOP 5 MOST PROFITABLE PRODUCTS ===
+Product 1005: $  5,000.00 profit
+Product 1010: $  5,000.00 profit
+Product 1003: $  3,750.00 profit
+Product 1008: $  3,400.00 profit
+Product 1007: $  3,000.00 profit
+
+=== ANALYSIS 7: PAYMENT METHOD DISTRIBUTION ===
+Credit Card    :      4 transactions (40.0%)
+Bank Transfer  :      3 transactions (30.0%)
+Cash           :      3 transactions (30.0%)
+
+=== ANALYSIS 8: QUARTERLY PERFORMANCE BY REGION ===
+West:
+  Q1: $    4,200.00
+  Q2: $    8,500.00
+South:
+  Q1: $    5,500.00
+  Q3: $   10,000.00
+North:
+  Q1: $   14,000.00
+  Q2: $    4,500.00
+East:
+  Q1: $    7,500.00
+  Q2: $    6,000.00
+
+=== ANALYSIS 9: SALES CHANNEL EFFECTIVENESS ===
+Online    : Total=$   32,000.00, Avg Profit=$3,400.00
+Retail    : Total=$   28,200.00, Avg Profit=$2,700.00
+
+=== ANALYSIS 10: HIGH-VALUE TRANSACTIONS (>$9,000.00) ===
+Found 1 high-value transactions
+Product 1010: $ 10,000.00 (South, Rep: Alice)
+
+=== ANALYSIS 11: DISCOUNT IMPACT ANALYSIS ===
+No Discount : Count=    2, Avg Sales=$9,500.00, Avg Profit=$5,000.00, Margin=52.6%
+1-10%       : Count=    5, Avg Sales=$5,000.00, Avg Profit=$2,480.00, Margin=49.6%
+11-20%      : Count=    3, Avg Sales=$5,400.00, Avg Profit=$2,700.00, Margin=50.0%
+
+]]></system-out>
+  </testcase>
+  <testcase name="testZeroSalesAmount" classname="buildChallengePartB.SalesDataAnalysisTest" time="0.001"/>
+  <testcase name="testMonthFormat" classname="buildChallengePartB.SalesDataAnalysisTest" time="0.001"/>
+</testsuite>
