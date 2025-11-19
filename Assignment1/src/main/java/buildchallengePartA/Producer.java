@@ -2,6 +2,24 @@ package buildchallengePartA;
 
 import java.util.List;
 
+/**
+ * Producer thread that reads items from a source container and places them
+ * into a shared blocking queue.
+ *
+ * The producer demonstrates the producer side of the producer-consumer pattern.
+ * It continuously reads items from the source and attempts to add them to the
+ * shared queue. If the queue is full, the producer blocks until space becomes
+ * available.
+ *
+ * Thread Safety: This class is thread-safe. Multiple producer instances can
+ * safely operate on different source containers and the same shared queue.
+ *
+ *
+ * @author Manan Vijayvargiya
+ * @version 1.0
+ * @since 2025-11-19
+ */
+
 class Producer implements Runnable {
     private final List<String> sourceContainer;
     private final CustomBlockingQueue<String> sharedQueue;

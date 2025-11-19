@@ -7,6 +7,20 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
+ * A thread-safe blocking queue implementation with bounded capacity.
+ *
+ * This queue uses ReentrantLock and Condition variables to coordinate
+ * between producer and consumer threads. When the queue is full, producers
+ * block until space becomes available. When empty, consumers block until
+ * items are available.
+ *
+ * @param <T> the type of elements held in this queue
+ * @author Manan Vijayvargiya
+ * @version 1.0
+ * @since 2025-11-19
+ */
+
+/**
  * Custom Blocking Queue implementation demonstrating wait/notify mechanism
  */
 class CustomBlockingQueue<T> {

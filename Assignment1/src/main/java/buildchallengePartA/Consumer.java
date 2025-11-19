@@ -2,6 +2,22 @@ package buildchallengePartA;
 
 import java.util.List;
 
+/**
+ * Consumer thread that retrieves items from a shared blocking queue and stores
+ * them in a destination container.
+ *
+ * The consumer demonstrates the consumer side of the producer-consumer pattern.
+ * It continuously attempts to retrieve items from the shared queue. If the queue
+ * is empty, the consumer blocks until items become available.
+ *
+ * Thread Safety: This class is thread-safe. Multiple consumer instances can
+ * safely operate on the same shared queue and different destination containers.
+ *
+ * @author Manan Vijayvargiya
+ * @version 1.0
+ * @since 2025-11-19
+ */
+
 class Consumer implements Runnable {
     private final CustomBlockingQueue<String> sharedQueue;
     private final List<String> destinationContainer;
