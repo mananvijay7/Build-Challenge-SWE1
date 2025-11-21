@@ -100,47 +100,51 @@ Consumer-Thread - Removed: Item-1 | Queue size: 0
 
 [PRODUCER] Reading from source: Item-2
 Producer-Thread - Added: Item-2 | Queue size: 1
-Consumer-Thread - Removed: Item-2 | Queue size: 0
+
+[PRODUCER] Reading from source: Item-3
+Producer-Thread - Added: Item-3 | Queue size: 2
+Consumer-Thread - Removed: Item-2 | Queue size: 1
 
 [CONSUMER] Processing: Item-2
 
-[PRODUCER] Reading from source: Item-3
-Producer-Thread - Added: Item-3 | Queue size: 1
-Consumer-Thread - Removed: Item-3 | Queue size: 0
+[PRODUCER] Reading from source: Item-4
+Producer-Thread - Added: Item-4 | Queue size: 2
+
+[PRODUCER] Reading from source: Item-5
+Producer-Thread - Added: Item-5 | Queue size: 3
+Consumer-Thread - Removed: Item-3 | Queue size: 2
 
 [CONSUMER] Processing: Item-3
 
-[PRODUCER] Reading from source: Item-4
-Producer-Thread - Added: Item-4 | Queue size: 1
-
-[PRODUCER] Reading from source: Item-5
-Producer-Thread - Added: Item-5 | Queue size: 2
-Consumer-Thread - Removed: Item-4 | Queue size: 1
-
-[CONSUMER] Processing: Item-4
-
 [PRODUCER] Reading from source: Item-6
-Producer-Thread - Added: Item-6 | Queue size: 2
-Consumer-Thread - Removed: Item-5 | Queue size: 1
-
-[CONSUMER] Processing: Item-5
+Producer-Thread - Added: Item-6 | Queue size: 3
 
 [PRODUCER] Reading from source: Item-7
-Producer-Thread - Added: Item-7 | Queue size: 2
+Producer-Thread - Queue FULL, waiting...
+Consumer-Thread - Removed: Item-4 | Queue size: 2
+
+[CONSUMER] Processing: Item-4
+Producer-Thread - Added: Item-7 | Queue size: 3
 
 [PRODUCER] Reading from source: Item-8
+Producer-Thread - Queue FULL, waiting...
+Consumer-Thread - Removed: Item-5 | Queue size: 2
+
+[CONSUMER] Processing: Item-5
 Producer-Thread - Added: Item-8 | Queue size: 3
+
+[PRODUCER] Reading from source: Item-9
+Producer-Thread - Queue FULL, waiting...
 Consumer-Thread - Removed: Item-6 | Queue size: 2
 
 [CONSUMER] Processing: Item-6
-
-[PRODUCER] Reading from source: Item-9
 Producer-Thread - Added: Item-9 | Queue size: 3
+
+[PRODUCER] Reading from source: Item-10
+Producer-Thread - Queue FULL, waiting...
 Consumer-Thread - Removed: Item-7 | Queue size: 2
 
 [CONSUMER] Processing: Item-7
-
-[PRODUCER] Reading from source: Item-10
 Producer-Thread - Added: Item-10 | Queue size: 3
 
 [PRODUCER] Finished - All items produced
@@ -173,6 +177,8 @@ Destination contents:
   Item-10
 
 Transfer successful: true
+
+Process finished with exit code 0
 ```
 
 ---

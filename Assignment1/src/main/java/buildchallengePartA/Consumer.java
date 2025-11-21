@@ -58,7 +58,7 @@ class Consumer implements Runnable {
                     destinationContainer.add(item);
                 }
 
-                Thread.sleep(150); // Simulate processing time (slower than producer)
+                Thread.sleep(250); // Simulate processing time (slower than producer)
             }
             System.out.println("\n[CONSUMER] Finished - All items consumed");
         } catch (InterruptedException e) {
